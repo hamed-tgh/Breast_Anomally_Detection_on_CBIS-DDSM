@@ -27,6 +27,13 @@ With appreciation to [sposso](https://github.com/sposso/CBIS-DDSM-DATASET) for p
 
 in this project we have utilized Deeplab v3+ for training and inferencing. for more details, DeepLab v3+ is an advanced semantic segmentation model that extends DeepLab v3 by incorporating an encoder–decoder structure for more accurate pixel-level predictions. The encoder uses atrous (dilated) convolutions and Atrous Spatial Pyramid Pooling (ASPP) to capture multi-scale contextual information without losing resolution, while the decoder refines object boundaries to produce sharper segmentation maps. Compared to earlier versions, DeepLab v3+ offers better balance between accuracy and efficiency, improved handling of objects at multiple scales, and enhanced boundary delineation, making it highly effective for real-world applications such as medical imaging, autonomous driving, and scene understanding.
 
+in this project we have 4 labels
+1) Background
+2) benign
+3) Mass
+4) Calc
+   
+
 # How to Train?
 1) Python main_retrieval.py
 2) Python Train_deep_labv3+.py
