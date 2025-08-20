@@ -31,12 +31,13 @@ Python Train_deep_labv3+.py
 
 
 # Requirements:
-Torch
-Numpy
-Pandas
-Opencv-python
-PIL
-Torchvision
-logging
+1) Torch
+2) Numpy
+3) Pandas
+4) Opencv-python
+5) Torchvision
+6) logging
+
+
 
 
