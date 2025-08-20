@@ -8,7 +8,16 @@ Detecting abnormalities in mammography is critically important because early ide
 
 # Dataset:
 
-The CBIS-DDSM is a curated and standardized subset of the original DDSM database, which contains 2,620 mammography studies with normal, benign, and malignant cases verified by pathology. Unlike the original DDSM, CBIS-DDSM provides decompressed images in DICOM format, updated ROI segmentations, bounding boxes, and detailed pathological diagnoses, making it more suitable for training and evaluating CADx and CADe systems. Its creation addresses key limitations of earlier datasets, such as outdated compression formats, imprecise annotations, and inconsistent use by researchers, which made replication and comparison of results difficult. By offering a well-curated and accessible dataset, CBIS-DDSM supports the development of reliable decision support systems for mammography research.
+The CBIS-DDSM is a curated and standardized subset of the original DDSM database, which contains 2,620 mammography studies with normal, benign, and malignant cases verified by pathology. Unlike the original DDSM, CBIS-DDSM provides decompressed images in DICOM format, updated ROI segmentations, bounding boxes, and detailed pathological diagnoses, making it more suitable for training and evaluating CADx and CADe systems. Its creation addresses key limitations of earlier datasets, such as outdated compression formats, imprecise annotations, and inconsistent use by researchers, which made replication and comparison of results difficult. By offering a well-curated and accessible dataset, CBIS-DDSM supports the development of reliable decision support systems for mammography research. you can download the dataset with the [link](https://www.cancerimagingarchive.net/collection/cbis-ddsm/#:~:text=This%20CBIS%2DDDSM%20(Curated%20Breast,cases%20with%20verified%20pathology%20information.) 
+
+# Requirements:
+1) Torch
+2) Numpy
+3) Pandas
+4) Opencv-python
+5) Torchvision
+6) logging
+
 
 # Pre-Process
 
@@ -19,8 +28,8 @@ With appreciation to [sposso](https://github.com/sposso/CBIS-DDSM-DATASET) for p
 in this project we have utilized Deeplab v3+ for training and inferencing. for more details, DeepLab v3+ is an advanced semantic segmentation model that extends DeepLab v3 by incorporating an encoder–decoder structure for more accurate pixel-level predictions. The encoder uses atrous (dilated) convolutions and Atrous Spatial Pyramid Pooling (ASPP) to capture multi-scale contextual information without losing resolution, while the decoder refines object boundaries to produce sharper segmentation maps. Compared to earlier versions, DeepLab v3+ offers better balance between accuracy and efficiency, improved handling of objects at multiple scales, and enhanced boundary delineation, making it highly effective for real-world applications such as medical imaging, autonomous driving, and scene understanding.
 
 # How to Train?
-
-Python Train_deep_labv3+.py
+1) Python main_retrieval.py
+2) Python Train_deep_labv3+.py
 
 # How to Evaluate?
 
@@ -28,15 +37,13 @@ Python Train_deep_labv3+.py
 2) Python Test_deep_labV3+.py
 
 
+# Acknowledgment
+1) Raykasoft.com
+2) https://github.com/sposso/CBIS-DDSM-DATASET
+3) https://www.cancerimagingarchive.net/collection/cbis-ddsm/#:~:text=This%20CBIS%2DDDSM%20(Curated%20Breast,cases%20with%20verified%20pathology%20information.
 
 
-# Requirements:
-1) Torch
-2) Numpy
-3) Pandas
-4) Opencv-python
-5) Torchvision
-6) logging
+
 
 
 
