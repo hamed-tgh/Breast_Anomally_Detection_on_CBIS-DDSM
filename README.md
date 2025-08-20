@@ -39,8 +39,9 @@ in this project we have utilized Deeplab v3+ for training and inferencing. for m
 
 # Acknowledgment
 1) https://Raykasoft.com
-2) https://github.com/sposso/CBIS-DDSM-DATASET
-3) https://www.cancerimagingarchive.net/collection/cbis-ddsm/#:~:text=This%20CBIS%2DDDSM%20(Curated%20Breast,cases%20with%20verified%20pathology%20information.
+2) https://Raykasoft.uk
+3) https://github.com/sposso/CBIS-DDSM-DATASET
+4) https://www.cancerimagingarchive.net/collection/cbis-ddsm/#:~:text=This%20CBIS%2DDDSM%20(Curated%20Breast,cases%20with%20verified%20pathology%20information.
 
 
 
