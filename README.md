@@ -1,4 +1,4 @@
-# Breast_Anomally_Detection_on_CBIS-DDSM
+# Breast_Anomally_Detection_Segmentation_on_CBIS-DDSM
 Detecting and segmenting Breast abnormality on CBIS-DDSM Datset.
 
 
